@@ -1,0 +1,13 @@
+format = 2
+name = "Version"
+version = "0.1.0"
+type = "exec"
+output = "version.exec"
+sources = ["src/Program.hy"]
+project_references = []
+
+[package]
+id = "os.australis.version"
+description = "Minimal Australis executable"
+authors = ["Aurora Softwares"]
+license = "MIT"
