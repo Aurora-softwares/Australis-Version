@@ -5,9 +5,9 @@
 The current source prints a fixed `Version: 0.0.1`. It launches as an AUEX program but does not yet query the running OS version.
 
 `Version.hyproj` builds `version.exec`. The Australis OS aggregate includes
-this project and installs the executable at `/Bin/version.exec` in the read-only
-HyFS 2 boot image. Run it by its bare name `/Bin/` through the current
-recovery shell's `PATH`, or use `run /Bin/version.exec`.
+this project and installs the executable at `/System/Bin/version.exec` in the read-only
+HyFS 2 boot image. Run it by its bare name `/System/Bin/` through the current
+recovery shell's `PATH`, or use `run /System/Bin/version.exec`.
 
 ## Planned direction
 
