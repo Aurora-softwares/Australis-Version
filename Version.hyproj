@@ -7,7 +7,7 @@ sources = ["src/Program.hy"]
 project_references = []
 
 [package]
-id = "os.australis.version"
+id = "australis.applications.version"
 description = "Minimal Australis executable"
 authors = ["Aurora Softwares"]
 license = "MIT"
